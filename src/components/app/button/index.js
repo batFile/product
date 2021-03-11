@@ -1,0 +1,1 @@
+export { View as Button } from './view';

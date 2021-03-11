@@ -1,0 +1,12 @@
+.logo {
+    $this: &;
+
+    display: flex;
+    width: 115px;
+    height: 100%;
+    align-items: center;
+
+    &__img {
+        display: block;
+    }
+}

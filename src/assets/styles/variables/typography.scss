@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Open+Sans&display=swap');
+
+$font-family-epilogue: 'Epilogue', sans-serif;
+$font-family-openSans: 'Open Sans', sans-serif;
+
+$font-size-h1: 42px;
+$font-size-h2: 32px;
+$font-size-h3: 22px;
+$font-size-h4: 22px;
+
+$font-btn-middle: 20px;
+$font-btn-small: 16px;
+
+$font-p-middle: 18px;
+$font-p-small: 16px;
+
+@mixin fonts($size, $family) {
+    font-family: $family;
+    font-size: $size;
+}

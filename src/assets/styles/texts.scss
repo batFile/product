@@ -1,0 +1,19 @@
+h1 {@include fonts($font-size-h1, $font-family-epilogue)}
+h2 {@include fonts($font-size-h2, $font-family-epilogue)}
+h3 {@include fonts($font-size-h3, $font-family-epilogue)}
+h4 {@include fonts($font-size-h4, $font-family-epilogue)}
+
+p {
+    @include fonts($font-p-middle, $font-family-openSans);
+    @media (max-width: 768px) {
+        @include fonts($font-p-small, $font-family-openSans);
+    }
+}
+
+.btn-text {
+    @include fonts($font-btn-middle, $font-family-openSans);
+    font-weight: bold;
+    @media (max-width: 768px) {
+        @include fonts($font-btn-small, $font-family-openSans);
+    }
+}

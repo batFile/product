@@ -1,0 +1,40 @@
+@import './variables/colors.scss';
+@import './variables/shadows.scss';
+.button {
+    $this: &;
+
+    width: 198px;
+    height: 53px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: $shadow-success;
+    }
+
+    &--fill {
+        background-color: $color-main;
+        color: $color-white;
+    }
+
+    &--unfill {
+        background-color: $color-bg;
+        color: $color-paragraph;
+        border: 2px solid $color-btn-border;
+    }
+
+    &--unfill:hover {
+        color: $color-main;
+        border: 2px solid $color-main;
+        box-shadow: none;
+    }
+
+    @media (max-width: 768px) {
+        & {
+            width: 101px;
+            height: 35px;
+        }
+    }
+
+}

@@ -1,0 +1,42 @@
+@import './../../../assets/styles/variables/colors.scss';
+.nav {
+    $this: &;
+
+    display: flex;
+    width: calc( 100% - 115px );
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+
+    &--anchors {
+        display: flex;
+        width: max-content;
+        height: 100%;
+        align-items: center;
+    }
+
+    &--anchor {
+        width: max-content;
+        margin-left: 15px;
+    }
+
+    &--link {
+        font-size: 15px !important;
+        text-decoration: none;
+        color: $color-paragraph;
+    }
+
+    &__p {
+        font-size: 15px;
+    }
+
+    & button {
+        width: 113px;
+        height: 35px;
+        margin-left: 30px;
+    }
+
+    & button p {
+        font-size: 15px;
+    }
+}

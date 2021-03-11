@@ -1,0 +1,10 @@
+.search {
+    $this: &;
+
+    display: flex;
+    align-items: center;
+
+    &__img {
+        cursor: pointer;
+    }
+}

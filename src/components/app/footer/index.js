@@ -1,0 +1,1 @@
+export { View as Footer } from './view';
