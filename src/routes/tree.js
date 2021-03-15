@@ -16,28 +16,28 @@ const routes = {
 // main page
 const anchors = {
 	'about' : {
-		path: '#about',
+		path: '/#about',
 		name: 'About',
 		link () {
 			return this.path;
 		}
 	},
 	'product' : {
-		path: '#product',
+		path: '/#product',
 		name: 'Product',
 		link () {
 			return this.path;
 		}
 	},
 	'FAQ' : {
-		path: '#FAQ',
+		path: '/#FAQ',
 		name: 'FAQ',
 		link () {
 			return this.path;
 		}
 	},
 	'contact' : {
-		path: '#contact',
+		path: '/#contact',
 		name: 'Contact',
 		link () {
 			return this.path;

@@ -20,7 +20,7 @@ const View = React.memo(() => {
                 <ul className={ 'nav--anchors' }>
                     {navbarAnchors.map((anchor) => (
                         <li key={anchor.key} className={ 'nav--anchor' }>
-                            <Link to={anchors[anchor.key].link()} className={ 'nav--link' }><p className={ 'nav__p' }>{anchor.name}</p></Link>
+                            <Link to={anchors[anchor.key].link()} onClick={ () => console.log('test') } className={ 'nav--link' }><p className={ 'nav__p' }>{anchor.name}</p></Link>
                         </li>
                     ))}
                 </ul>
