@@ -1,5 +1,6 @@
 import {
 	Main,
+	Test
 } from './../pages';
 
 const routes = {
@@ -11,6 +12,14 @@ const routes = {
 			return this.path;
 		},
 	},
+	'test': {
+		path: '/test',
+		page: Test,
+		name: 'Test',
+		link () {
+			return this.path;
+		},
+	}
 };
 
 // main page
